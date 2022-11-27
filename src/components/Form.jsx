@@ -9,7 +9,7 @@ const Form = ({ searchTerm, setSearchTerm, onSelect }) => {
 
 
   return (
-    <form className="flex flex-col md:flex-row items-center gap-5">
+    <form className="w-full flex flex-col md:flex-row items-center md:justify-between gap-5 ">
       
       <div className="relative">
         <div className="absolute inset-y-0 left-3 flex items-center pl-3 pointer-events-none">
