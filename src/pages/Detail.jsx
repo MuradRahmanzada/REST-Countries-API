@@ -39,7 +39,7 @@ const Detail = () => {
             return (
               <div
                 className="flex flex-col md:flex-row gap-[50px] md:gap-y-14 xl:gap-y-0 py-10"
-                key={c.common.name}
+                key={c.name.common}
               >
                 <div>
                   <img
